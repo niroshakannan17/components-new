@@ -8,5 +8,5 @@ import { Customer } from '../model/customer';
 })
 export class CustomerViewComponent {
   
-  @Input() customers:Customer[] = [];
+  @Input('customersInput') customers:Customer[] = [];
 }
